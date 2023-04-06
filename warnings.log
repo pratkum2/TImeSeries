@@ -1,0 +1,43 @@
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:Adding TBB (C:\Users\prateek.kumar\Anaconda3\lib\site-packages\prophet\stan_model\cmdstan-2.26.1\stan\lib\stan_math\lib\tbb) to PATH
+INFO:prophet:Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+INFO:prophet:Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\PRATEE~1.KUM\AppData\Local\Temp\tmpb3vxmc0z\1i7te14d.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\PRATEE~1.KUM\AppData\Local\Temp\tmpb3vxmc0z\ad_hg5hc.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\prateek.kumar\\Anaconda3\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=4279', 'data', 'file=C:\\Users\\PRATEE~1.KUM\\AppData\\Local\\Temp\\tmpb3vxmc0z\\1i7te14d.json', 'init=C:\\Users\\PRATEE~1.KUM\\AppData\\Local\\Temp\\tmpb3vxmc0z\\ad_hg5hc.json', 'output', 'file=C:\\Users\\PRATEE~1.KUM\\AppData\\Local\\Temp\\tmpb3vxmc0z\\prophet_modell2i82gky\\prophet_model-20230310144640.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+DEBUG:cmdstanpy:cmd: where.exe tbb.dll
+cwd: None
+DEBUG:cmdstanpy:TBB already found in load path
+INFO:prophet:Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+INFO:prophet:Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: C:\Users\PRATEE~1.KUM\AppData\Local\Temp\tmpb3vxmc0z\2t7kkfz9.json
+DEBUG:cmdstanpy:input tempfile: C:\Users\PRATEE~1.KUM\AppData\Local\Temp\tmpb3vxmc0z\c5imussa.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['C:\\Users\\prateek.kumar\\Anaconda3\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=57823', 'data', 'file=C:\\Users\\PRATEE~1.KUM\\AppData\\Local\\Temp\\tmpb3vxmc0z\\2t7kkfz9.json', 'init=C:\\Users\\PRATEE~1.KUM\\AppData\\Local\\Temp\\tmpb3vxmc0z\\c5imussa.json', 'output', 'file=C:\\Users\\PRATEE~1.KUM\\AppData\\Local\\Temp\\tmpb3vxmc0z\\prophet_modelmgq9tylb\\prophet_model-20230310144641.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+WARNING:darts.utils.statistics:ts_cause doesn't seem to be stationary. Please review granger causality validity in your problem context.
+WARNING:darts.utils.statistics:ts_effect doesn't seem to be stationary. Please review granger causality validity in your problem context.
+WARNING:root:Forecaster._typ_set() did not work after the detrend transformation, continuing as is.
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
+WARNING:tsfresh.feature_extraction.settings:Dependency not available for matrix_profile, this feature will be disabled!
